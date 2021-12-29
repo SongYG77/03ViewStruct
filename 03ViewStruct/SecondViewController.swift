@@ -13,7 +13,7 @@ class SecondViewController: UIViewController  {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
+       print("두번째 화면")
     }
     
     @IBAction func onbtnNext(_ sender: UIButton) {
