@@ -10,10 +10,18 @@ import UIKit
 class SecondViewController: UIViewController  {
     
 
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
+    var seconddata : String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       print("두번째 화면")
+        print("두번째 화면")
+        //전역변수를 참조하여 출력
+        print(appDelegate.globaldata)
+        
+        //처음 화면에서 전달받은 데이터
+        print(seconddata)
     }
     
     @IBAction func onbtnNext(_ sender: UIButton) {
@@ -23,6 +31,9 @@ class SecondViewController: UIViewController  {
     }
     
     @IBAction func onbtnBack(_ sender: UIButton) {
+        
+        appDelegate.mainVC?.maindata = "세컨드VC애서 준 값."
+        //메인에서 넘어왔기 때문에 연결이 이미 되어있을것이다.
         self.navigationController?.popViewController(animated: true)
         
     }

@@ -15,6 +15,7 @@
 		18C4126A277C429A0003DF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C41268277C429A0003DF81 /* LaunchScreen.storyboard */; };
 		18C41273277C4E4B0003DF81 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C41272277C4E4B0003DF81 /* SecondViewController.swift */; };
 		18C41276277C4E6E0003DF81 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C41275277C4E6E0003DF81 /* ThirdViewController.swift */; };
+		18DE384C277D9D9300B1D48B /* popupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE384B277D9D9300B1D48B /* popupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		18C4126B277C429A0003DF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C41272277C4E4B0003DF81 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		18C41275277C4E6E0003DF81 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		18DE384B277D9D9300B1D48B /* popupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,10 @@
 				18C4125D277C42990003DF81 /* AppDelegate.swift */,
 				18C4125F277C42990003DF81 /* SceneDelegate.swift */,
 				18C41261277C42990003DF81 /* ViewController.swift */,
-				18C41263277C42990003DF81 /* Main.storyboard */,
 				18C41272277C4E4B0003DF81 /* SecondViewController.swift */,
 				18C41275277C4E6E0003DF81 /* ThirdViewController.swift */,
+				18C41263277C42990003DF81 /* Main.storyboard */,
+				18DE384B277D9D9300B1D48B /* popupViewController.swift */,
 				18C41266277C429A0003DF81 /* Assets.xcassets */,
 				18C41268277C429A0003DF81 /* LaunchScreen.storyboard */,
 				18C4126B277C429A0003DF81 /* Info.plist */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C41273277C4E4B0003DF81 /* SecondViewController.swift in Sources */,
+				18DE384C277D9D9300B1D48B /* popupViewController.swift in Sources */,
 				18C41262277C42990003DF81 /* ViewController.swift in Sources */,
 				18C41276277C4E6E0003DF81 /* ThirdViewController.swift in Sources */,
 				18C4125E277C42990003DF81 /* AppDelegate.swift in Sources */,

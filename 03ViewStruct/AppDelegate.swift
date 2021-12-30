@@ -9,7 +9,14 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    //전역변수를 선언하는 부분 - 변수, 배열, 딕셔너리, 구조체, 클래스등등 전체에서 필요한 것들.
+    //로그인 햇는지 안햇는지 등등
+    
+    var globaldata : String = ""
+    
+    var mainVC : ViewController? = nil
+    //main 뷰컨에서 self로 지정할 예정, 세컨드에서 메인으로 값을 줄 때 사용된다.
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
